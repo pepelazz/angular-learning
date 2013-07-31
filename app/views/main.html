@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html ng-app='github'>
+    <head>
+        <title>#{get 'title' /}</title>
+        <meta charset="${_response_encoding}">
+        <link rel="stylesheet" media="screen" href="@{'/public/css/main.css'}">
+        <link rel="stylesheet" media="screen" href="@{'/public/css/bootstrap.css'}">
+        #{get 'moreStyles' /}
+        <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
+        <script src="http://code.jquery.com/jquery-2.0.1.min.js"></script>
+        <script src="@{'/public/js/angular.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+        <script src="@{'/public/js/angular-resource.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+        <script src="@{'/public/js/alaska-controller.coffee'}" type="text/javascript" charset="${_response_encoding}"></script>
+        <script src="@{'/public/js/services/services.coffee'}" type="text/javascript" charset="${_response_encoding}"></script>
+        <script src="@{'/public/js/directives/directives.coffee'}" type="text/javascript" charset="${_response_encoding}"></script>
+        <script src="@{'/public/js/controllers/controllers.coffee'}" type="text/javascript" charset="${_response_encoding}"></script>
+        #{get 'moreScripts' /}
+    </head>
+    <body>
+        #{doLayout /}
+    </body>
+</html>

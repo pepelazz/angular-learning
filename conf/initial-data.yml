@@ -1,0 +1,35 @@
+
+Recipe(R1):
+    title:          Cookies
+    description:    Delicious, crisp on the outside, chewy on the outside, oozing with chocolatey goodness cookies. The best kind
+    instructions:   >
+                    1. Go buy a packet of Chips Ahoy\n
+                    2. Heat it up in an oven\n
+                    3. Enjoy warm cookies\n
+                    4. Learn how to bake cookies from somewhere else
+Ingredients(I01):
+      recipe: R1
+      amount: 1
+      amountUnit: packet
+      ingredientName: Chips Ahoy
+
+Recipe(R2):
+    title:          Печенье
+    description:    Вкусное печенье юбилейное
+    instructions:   >
+                    1. Купить в магазине <br>
+                    2. Распечатать упаковку <br>
+                    3. Приготовить чай <br>
+                    4. Наслаждаться вкусом
+Ingredients(I11):
+      recipe: R2
+      amount: 1
+      amountUnit: г
+      ingredientName: Печенюхинг
+
+Ingredients(I12):
+      recipe: R2
+      amount: 2
+      amountUnit: г
+      ingredientName: Хлеба спелые
+    
